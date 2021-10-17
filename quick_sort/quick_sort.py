@@ -21,9 +21,10 @@ def quick_sort(sequence):
 
     return quick_sort(items_lower) + [pivot] + quick_sort(items_greater)
 
+
 # Array to sort
-array = [1,4,2,3,6,5,7,9,8,0]
+array = [1, 4, 2, 3, 6, 5, 7, 9, 8, 0]
 
 print()
-print('Input: ',array)
-print('Output: ',quick_sort(array))
+print('Input: ', array)
+print('Output: ', quick_sort(array))
